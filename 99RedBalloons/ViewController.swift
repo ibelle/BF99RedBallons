@@ -71,7 +71,7 @@ class ViewController: UIViewController {
             default:
                 newBalloon.image = UIImage(named: "BerlinTVTower.jpg")
             }
-            balloonCollection += [newBalloon]
+            balloonCollection.append(newBalloon)
         }
         return balloonCollection
     }
