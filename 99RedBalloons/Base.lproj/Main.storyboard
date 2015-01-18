@@ -43,11 +43,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cki-gE-Aiv">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balloon Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhG-6e-apZ">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balloon Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhG-6e-apZ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -56,11 +57,11 @@
                             <constraint firstAttribute="trailing" secondItem="cki-gE-Aiv" secondAttribute="trailing" id="G1J-93-pL8"/>
                             <constraint firstAttribute="trailing" secondItem="hgh-ux-QSQ" secondAttribute="trailing" id="KYy-LZ-Kv6"/>
                             <constraint firstItem="hgh-ux-QSQ" firstAttribute="top" secondItem="cki-gE-Aiv" secondAttribute="bottom" id="Nac-J8-0on"/>
+                            <constraint firstItem="nhG-6e-apZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="67" id="OHz-3N-SFc"/>
                             <constraint firstItem="cki-gE-Aiv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Owg-8e-hkU"/>
-                            <constraint firstItem="nhG-6e-apZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="66" id="S6C-bT-DfN"/>
-                            <constraint firstItem="nhG-6e-apZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="c8F-RF-mRo"/>
+                            <constraint firstAttribute="trailing" secondItem="nhG-6e-apZ" secondAttribute="trailing" constant="34" id="Zb3-eg-qK7"/>
                             <constraint firstItem="cki-gE-Aiv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cfC-JJ-jDX"/>
-                            <constraint firstAttribute="trailing" secondItem="nhG-6e-apZ" secondAttribute="trailing" constant="172" id="oQ7-TE-w1a"/>
+                            <constraint firstItem="nhG-6e-apZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="tK0-Sc-03y"/>
                             <constraint firstItem="hgh-ux-QSQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zMu-YI-SsR"/>
                         </constraints>
                         <variation key="default">
@@ -73,9 +74,9 @@
                                 <exclude reference="G1J-93-pL8"/>
                                 <exclude reference="Owg-8e-hkU"/>
                                 <exclude reference="cfC-JJ-jDX"/>
-                                <exclude reference="S6C-bT-DfN"/>
-                                <exclude reference="c8F-RF-mRo"/>
-                                <exclude reference="oQ7-TE-w1a"/>
+                                <exclude reference="OHz-3N-SFc"/>
+                                <exclude reference="Zb3-eg-qK7"/>
+                                <exclude reference="tK0-Sc-03y"/>
                                 <exclude reference="Bie-vr-p47"/>
                                 <exclude reference="KYy-LZ-Kv6"/>
                                 <exclude reference="Nac-J8-0on"/>
@@ -92,9 +93,9 @@
                                 <include reference="G1J-93-pL8"/>
                                 <include reference="Owg-8e-hkU"/>
                                 <include reference="cfC-JJ-jDX"/>
-                                <include reference="S6C-bT-DfN"/>
-                                <include reference="c8F-RF-mRo"/>
-                                <include reference="oQ7-TE-w1a"/>
+                                <include reference="OHz-3N-SFc"/>
+                                <include reference="Zb3-eg-qK7"/>
+                                <include reference="tK0-Sc-03y"/>
                                 <include reference="Bie-vr-p47"/>
                                 <include reference="KYy-LZ-Kv6"/>
                                 <include reference="Nac-J8-0on"/>
