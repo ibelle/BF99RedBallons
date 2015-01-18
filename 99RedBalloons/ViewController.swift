@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var balloonImageView: UIImageView!
+    @IBOutlet weak var balloonLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func nextBalloonButtonPressed(sender: UIBarButtonItem) {
+    }
 }
 

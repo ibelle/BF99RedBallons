@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+struct Balloon : Printable {
+    //Properties
+    var number = 0
+    var image = UIImage(named:"")
+    var description: String {
+        return "Balloon: Number-\(number),Image-\(image)"
+}
+}
