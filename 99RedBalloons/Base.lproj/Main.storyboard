@@ -71,9 +71,6 @@
                                 <exclude reference="nhG-6e-apZ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="G1J-93-pL8"/>
-                                <exclude reference="Owg-8e-hkU"/>
-                                <exclude reference="cfC-JJ-jDX"/>
                                 <exclude reference="OHz-3N-SFc"/>
                                 <exclude reference="Zb3-eg-qK7"/>
                                 <exclude reference="tK0-Sc-03y"/>
@@ -81,6 +78,9 @@
                                 <exclude reference="KYy-LZ-Kv6"/>
                                 <exclude reference="Nac-J8-0on"/>
                                 <exclude reference="zMu-YI-SsR"/>
+                                <exclude reference="G1J-93-pL8"/>
+                                <exclude reference="Owg-8e-hkU"/>
+                                <exclude reference="cfC-JJ-jDX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -90,9 +90,6 @@
                                 <include reference="nhG-6e-apZ"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="G1J-93-pL8"/>
-                                <include reference="Owg-8e-hkU"/>
-                                <include reference="cfC-JJ-jDX"/>
                                 <include reference="OHz-3N-SFc"/>
                                 <include reference="Zb3-eg-qK7"/>
                                 <include reference="tK0-Sc-03y"/>
@@ -100,6 +97,9 @@
                                 <include reference="KYy-LZ-Kv6"/>
                                 <include reference="Nac-J8-0on"/>
                                 <include reference="zMu-YI-SsR"/>
+                                <include reference="G1J-93-pL8"/>
+                                <include reference="Owg-8e-hkU"/>
+                                <include reference="cfC-JJ-jDX"/>
                             </mask>
                         </variation>
                     </view>
